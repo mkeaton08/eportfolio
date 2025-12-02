@@ -5,35 +5,56 @@
   <title>My ePortfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e2a47, #2e496e);
       margin: 0;
       padding: 40px;
+      color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 50px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
       text-align: center;
     }
+
     h1 {
+      color: #1e2a47;
+      font-size: 36px;
       margin-bottom: 20px;
     }
+
+    p {
+      font-size: 18px;
+      color: #333;
+    }
+
     a.button {
       display: inline-block;
-      padding: 12px 20px;
-      background: #007acc;
+      margin-top: 30px;
+      padding: 14px 26px;
+      background-color: #2e496e;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
       font-size: 18px;
-      margin-top: 20px;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: background-color 0.2s ease;
     }
+
     a.button:hover {
-      background: #005fa3;
+      background-color: #1e2a47;
     }
-    .container {
-      max-width: 700px;
-      margin: 0 auto;
-      background: white;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      color: #ccc;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -41,10 +62,16 @@
 
 <div class="container">
   <h1>My ePortfolio</h1>
-  <p>Welcome to my portfolio. Use the button below to explore my code review, original work, enhancements, and project narratives.</p>
-
+  <p>
+    Welcome to my professional ePortfolio. Here you’ll find my code review, original project artifacts,
+    enhanced implementations, and narratives demonstrating my growth in software design and engineering.
+  </p>
   <a class="button" href="artifacts.html">View My Artifacts</a>
 </div>
+
+<footer>
+  &copy; 2025 Matthew Keaton
+</footer>
 
 </body>
 </html>
