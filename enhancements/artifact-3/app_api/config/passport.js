@@ -1,0 +1,27 @@
+const passport = require('passport');
+const LocalStrategy = require('passport-local').Strategy;
+const User = require('../models/user'); // <-- use the exported model directly
+
+passport.use(
+  new LocalStrategy(
+    {
+      usernameField: 'email',       // the body field that holds the email
+      passwordField: 'password',    // optional but explicit
+      session: false
+    },
+    async (email, password, done) => {
+      try {
+        const user = await User.findOne({ email: email.toLowerCase().trim() }).exec();
+        if (!user) {
+          return done(null, false, { message: 'Incorrect username.' });
+        }
+        if (!user.validPassword(password)) {
+          return done(null, false, { message: 'Incorrect password.' });
+        }
+        return done(null, user);
+      } catch (err) {
+        return done(err);
+      }
+    }
+  )
+);
