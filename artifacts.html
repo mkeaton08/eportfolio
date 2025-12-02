@@ -3,48 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Artifacts</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1e2a47, #2e496e);
       margin: 0;
       padding: 40px;
+      color: #f0f0f0;
     }
+
     .container {
       max-width: 900px;
       margin: 0 auto;
-      background: white;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      color: #333;
     }
+
     h1 {
       text-align: center;
+      font-size: 34px;
+      color: #1e2a47;
       margin-bottom: 30px;
+      letter-spacing: 1px;
     }
+
     h2 {
-      border-bottom: 2px solid #007acc;
-      padding-bottom: 5px;
-      color: #007acc;
-      margin-top: 30px;
+      margin-top: 40px;
+      font-size: 26px;
+      color: #2e496e;
+      border-left: 5px solid #2e496e;
+      padding-left: 12px;
     }
+
+    .section-card {
+      background: #f7f9fc;
+      border-left: 4px solid #2e496e;
+      padding: 20px;
+      margin-top: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
     .links p {
-      margin: 8px 0;
+      margin: 10px 0;
     }
+
     a {
-      color: #007acc;
-      font-size: 17px;
       text-decoration: none;
+      color: #1e4fa3;
+      font-weight: 600;
+      transition: color 0.2s ease;
     }
+
     a:hover {
+      color: #133775;
       text-decoration: underline;
     }
+
     .back {
       display: block;
-      margin-top: 40px;
+      margin-top: 50px;
       text-align: center;
     }
+
+    .back a {
+      font-size: 18px;
+      color: #ffffff;
+      background: #2e496e;
+      padding: 10px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .back a:hover {
+      background: #1e2a47;
+    }
   </style>
+
 </head>
 <body>
 
@@ -52,38 +91,51 @@
 
   <h1>My Artifacts</h1>
 
+  <!-- Code Review -->
   <h2>Code Review</h2>
-  <div class="links">
-    <p>
-      <a href="https://github.com/mkeaton08/eportfolio/tree/main/code-review" target="_blank">
-        Open Code Review Videos
-      </a>
-    </p>
+  <div class="section-card">
+    <div class="links">
+      <p>
+        <a href="https://github.com/mkeaton08/eportfolio/tree/main/code-review" target="_blank">
+          Open Code Review Videos
+        </a>
+      </p>
+    </div>
   </div>
 
+  <!-- Original Artifacts -->
   <h2>Original Artifacts</h2>
-  <div class="links">
-    <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/original/artifact-1" target="_blank">Artifact 1 (Original)</a></p>
-    <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/original/artifact-2" target="_blank">Artifact 2 (Original)</a></p>
-    <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/original/artifact-3" target="_blank">Artifact 3 (Original)</a></p>
+  <div class="section-card">
+    <div class="links">
+      <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/original/artifact-1" target="_blank">Artifact 1 (Original)</a></p>
+      <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/original/artifact-2" target="_blank">Artifact 2 (Original)</a></p>
+      <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/original/artifact-3" target="_blank">Artifact 3 (Original)</a></p>
+    </div>
   </div>
 
+  <!-- Enhanced Artifacts -->
   <h2>Enhanced Artifacts</h2>
-  <div class="links">
-    <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/enhancements/artifact-1" target="_blank">Artifact 1 (Enhanced)</a></p>
-    <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/enhancements/artifact-2" target="_blank">Artifact 2 (Enhanced)</a></p>
-    <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/enhancements/artifact-3" target="_blank">Artifact 3 (Enhanced)</a></p>
+  <div class="section-card">
+    <div class="links">
+      <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/enhancements/artifact-1" target="_blank">Artifact 1 (Enhanced)</a></p>
+      <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/enhancements/artifact-2" target="_blank">Artifact 2 (Enhanced)</a></p>
+      <p><a href="https://github.com/mkeaton08/eportfolio/tree/main/enhancements/artifact-3" target="_blank">Artifact 3 (Enhanced)</a></p>
+    </div>
   </div>
 
+  <!-- Narratives -->
   <h2>Narratives</h2>
-  <div class="links">
-    <p>
-      <a href="https://github.com/mkeaton08/eportfolio/tree/main/narratives" target="_blank">
-        View Narrative Documents
-      </a>
-    </p>
+  <div class="section-card">
+    <div class="links">
+      <p>
+        <a href="https://github.com/mkeaton08/eportfolio/tree/main/narratives" target="_blank">
+          View Narrative Documents
+        </a>
+      </p>
+    </div>
   </div>
 
+  <!-- Back button -->
   <div class="back">
     <a href="index.html">← Back to Home</a>
   </div>
