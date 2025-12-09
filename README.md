@@ -1,153 +1,99 @@
-CS-499 Computer Science Capstone – ePortfolio Repository
+# CS-499 Computer Science Capstone – ePortfolio Repository
 
 This repository contains all files for my CS-499 Capstone project at Southern New Hampshire University. It includes my original artifacts, enhanced artifacts, narratives, code review materials, and the HTML pages used to build my GitHub Pages ePortfolio.
 
-Live ePortfolio:
+Live ePortfolio:  
 https://mkeaton08.github.io/eportfolio/
 
-Repository Structure
-code-review/
+---
 
-Contains files related to the informal code review required for the capstone.
-This includes the walkthrough of the original artifacts, planned enhancements, and explanations of core functionality.
+## Repository Structure
 
-enhancements/
+---
 
-Contains the enhanced versions of my artifacts.
-Each enhancement aligns with one of the three CS-499 categories:
+### code-review/
 
-Software Engineering & Design
+Contains the informal code review materials required for CS-499. This includes:
 
-Algorithms & Data Structures
+- A walkthrough of the original artifacts  
+- Identification of issues and areas for improvement  
+- Planned enhancements and rationale  
 
-Databases
+---
+
+### enhancements/
+
+Contains the enhanced artifacts, each meeting one of the three required capstone categories:
+
+- Software Engineering & Design  
+- Algorithms & Data Structures  
+- Databases  
 
 These files represent the improved code developed during Milestones Two, Three, and Four.
 
-narratives/
+---
 
-Includes the written enhancement narratives for each artifact.
-Each narrative explains:
+### narratives/
 
-What the artifact is
+Contains the written narratives for each artifact. Each narrative explains:
 
-Why it was selected
+- What the artifact is  
+- Why it was selected  
+- What enhancements were made  
+- What skills were demonstrated  
+- Which course outcomes were met  
+- What I learned through the enhancement process  
 
-What enhancements were made
+---
 
-How the work demonstrates course outcomes
+### original/
 
-What I learned during the enhancement process
+Contains the original, unmodified versions of the artifacts.  
+These are provided so reviewers can compare the initial work against the improved versions in `/enhancements`.
 
-original/
+---
 
-Contains the unmodified versions of each artifact before enhancements were applied.
-This allows comparison between the original code and the improved code in /enhancements.
+### index.html
 
-HTML Files
+This is the homepage of the GitHub Pages ePortfolio. It includes:
 
-These files make up the GitHub Pages site for the ePortfolio.
+- My professional self-assessment  
+- An overview of my learning and development  
+- Navigation to the artifacts page  
 
-index.html
-Homepage containing my professional self-assessment and introduction to the portfolio.
+---
 
-artifacts.html
-Artifact navigation page linking to original code, enhanced code, and written narratives.
+### artifacts.html
 
-Both pages are designed for clean UI/UX and easy navigation.
+This page lists all artifacts with links to:
 
-professional-self-assessment.docx
+- Original code  
+- Enhanced code  
+- Narrative documents  
 
-A standalone document containing my full professional self-assessment as required for final submission.
+It provides clean UI/UX and guides reviewers through the technical work.
 
-Purpose of This Repository
+---
 
-This repository brings together all required components of the CS-499 capstone:
+### professional-self-assessment.docx
 
-Original and enhanced artifacts
+A standalone document containing my full professional self-assessment as required for the final capstone submission.
 
-Artifact narratives
+---
 
-Code review materials
+## Purpose of This Repository
 
-Professional self-assessment
+This repository brings together all major components of the CS-499 capstone, demonstrating my skills in:
 
-A complete GitHub Pages ePortfolio
+- Software engineering and full-stack development  
+- Algorithms and data structures  
+- Databases  
+- Security and professional development practices  
 
-It functions as both an academic submission and a professional portfolio demonstrating my abilities in software engineering, algorithms, databases, and security.CS-499 Computer Science Capstone – ePortfolio Repository
+It also hosts the complete GitHub Pages ePortfolio used for my final capstone submission and for professional presentation beyond the course.
 
-This repository contains all files for my CS-499 Capstone project at Southern New Hampshire University. It includes my original artifacts, enhanced artifacts, narratives, code review materials, and the HTML pages used to build my GitHub Pages ePortfolio.
 
-Live ePortfolio:
-https://mkeaton08.github.io/eportfolio/
 
-Repository Structure
-code-review/
 
-Contains files related to the informal code review required for the capstone.
-This includes the walkthrough of the original artifacts, planned enhancements, and explanations of core functionality.
 
-enhancements/
 
-Contains the enhanced versions of my artifacts.
-Each enhancement aligns with one of the three CS-499 categories:
-
-Software Engineering & Design
-
-Algorithms & Data Structures
-
-Databases
-
-These files represent the improved code developed during Milestones Two, Three, and Four.
-
-narratives/
-
-Includes the written enhancement narratives for each artifact.
-Each narrative explains:
-
-What the artifact is
-
-Why it was selected
-
-What enhancements were made
-
-How the work demonstrates course outcomes
-
-What I learned during the enhancement process
-
-original/
-
-Contains the unmodified versions of each artifact before enhancements were applied.
-This allows comparison between the original code and the improved code in /enhancements.
-
-HTML Files
-
-These files make up the GitHub Pages site for the ePortfolio.
-
-index.html
-Homepage containing my professional self-assessment and introduction to the portfolio.
-
-artifacts.html
-Artifact navigation page linking to original code, enhanced code, and written narratives.
-
-Both pages are designed for clean UI/UX and easy navigation.
-
-professional-self-assessment.docx
-
-A standalone document containing my full professional self-assessment as required for final submission.
-
-Purpose of This Repository
-
-This repository brings together all required components of the CS-499 capstone:
-
-Original and enhanced artifacts
-
-Artifact narratives
-
-Code review materials
-
-Professional self-assessment
-
-A complete GitHub Pages ePortfolio
-
-It functions as both an academic submission and a professional portfolio demonstrating my abilities in software engineering, algorithms, databases, and security.
